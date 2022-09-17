@@ -1,0 +1,66 @@
+.home {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  gap: 50px;
+}
+
+.home-content h1 {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 76px;
+  color: #364f6b;
+  font-family: "Lato";
+}
+
+.home-content p {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333333;
+  margin: 20px 0;
+}
+
+.trusted-companies-services {
+  width: 90%;
+  margin: 50px auto;
+  background: #364f6b;
+  border-radius: 32px;
+  padding: 20px;
+}
+
+.service-parent {
+  padding: 40px 110px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    flex-direction: column;
+    width: 100px;
+  }
+
+  .home-image img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .trusted-companies-services {
+    width: 260px;
+  }
+
+  .service-parent {
+    width: 350px;
+    padding: 10px;
+  }
+
+  .home-content h1 {
+    line-height: 60px;
+  }
+
+  .home-button {
+    text-align: center;
+  }
+}

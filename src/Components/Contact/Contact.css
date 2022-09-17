@@ -1,0 +1,184 @@
+.contact-parent {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.contact-parent h1 {
+  font-family: "Lato";
+  font-size: 65px;
+  line-height: 86px;
+  font-weight: 500;
+  color: #364f6b;
+  margin-bottom: 10px;
+}
+
+.contact-parent p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #d9d9d9;
+}
+
+.about-project {
+  padding: 35px;
+  background: #364f6b;
+  border-radius: 24px;
+  width: 50%;
+}
+
+.contact-parent h2 {
+  color: #d9d9d9;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.contact-about-project {
+  display: flex;
+}
+
+.contact-address-call-policy h2 {
+  color: black;
+}
+
+.contact-address-call-policy p {
+  color: black;
+}
+
+.about-project label {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.about-project input {
+  background: #394149;
+  border-radius: 8px;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+}
+
+.about-project form {
+  margin-top: 20px;
+}
+
+.name-input,
+.message-input {
+  width: 100%;
+}
+
+.email-phone {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.email {
+  width: 50%;
+}
+
+.phone {
+  width: 50%;
+}
+
+.email input,
+.phone input {
+  width: 100%;
+}
+
+textarea {
+  background: #394149;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  height: 100px;
+  padding: 10px;
+  /* color: #115eb6; */
+  color: black;
+}
+
+.contact-address-call-policy {
+  padding: 40px;
+}
+
+.contact-address-call-policy h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: #333333;
+}
+
+.contact-address-call-policy p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.contact-address-call-policy .address {
+  border-bottom: 2px solid rgba(51, 51, 51, 0.5);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-address-call-policy .call {
+  border-bottom: 2px solid rgba(51, 51, 51, 0.5);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.contact-address-call-policy {
+  width: 30%;
+}
+
+.contact-social-media {
+  display: flex;
+}
+
+.contact-social-media img {
+  background: #43dde6;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-parent {
+    width: 500px;
+  }
+
+  .contact-about-project {
+    flex-direction: column;
+  }
+
+  .email-phone {
+    flex-direction: column;
+  }
+
+  .email-phone div {
+    width: 100%;
+  }
+
+  .contact-parent h1:nth-child(1) {
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+  }
+}

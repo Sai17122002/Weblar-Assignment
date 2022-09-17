@@ -1,0 +1,91 @@
+.services-content {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding-bottom: 50px;
+}
+
+.our-services {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ffffff;
+  width: 50%;
+}
+
+.our-services-text {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #d9d9d9;
+  width: 50%;
+}
+
+.design-development-marketing {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 50px;
+  color: #ffffff;
+}
+
+.design-development-marketing h2 {
+  padding-top: 50px;
+  font-size: 28px;
+}
+
+.design-development-marketing p {
+  padding-top: 20px;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.line {
+  background: radial-gradient(
+    100% 7839999.45% at 0% 0%,
+    #364f6b 0%,
+    #d9d9d9 47.92%,
+    #364f6b 100%
+  );
+  height: 1px;
+  width: 300px;
+  transform: rotate(90deg);
+  position: relative;
+  left: 195px;
+  bottom: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  .services-content {
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 0px;
+    align-items: flex-start;
+  }
+
+  .design-development-marketing {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our-services {
+    width: 300px;
+    margin: 0;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+
+  .services-content p {
+    width: 260px;
+  }
+
+  .design-development-marketing {
+    margin-top: 50px;
+  }
+
+  .design-development-marketing p {
+    width: 260px;
+  }
+}

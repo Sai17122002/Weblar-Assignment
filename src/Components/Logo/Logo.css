@@ -1,0 +1,16 @@
+.shape {
+  display: inline-block;
+  background-color: #333333;
+  margin-right: 4px;
+}
+
+.square {
+  width: 15px;
+  height: 15px;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
